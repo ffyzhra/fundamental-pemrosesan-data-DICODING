@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+pandas
+pytest
+pytest-cov
+gspread
+google-auth
+psycopg2-binary
+sqlalchemy
+selenium

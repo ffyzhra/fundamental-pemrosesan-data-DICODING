@@ -1,0 +1,26 @@
+PROYEK AKHIR: ETL-FASHION
+
+Deskripsi:
+Proyek ini membangun ETL Pipeline sederhana untuk mengambil data produk dari website:
+https://fashion-studio.dicoding.dev/
+
+Struktur Proyek:
+- utils/extract.py
+- utils/transform.py
+- utils/load.py
+- tests/
+- main.py
+- requirements.txt
+- output/
+
+Cara Menjalankan:
+1. Install dependencies:
+   pip install -r requirements.txt
+2. Jalankan ETL:
+   python main.py
+3. Jalankan unit test:
+   pytest --cov=utils tests/
+
+Repositori Data:
+- Data disimpan dalam format CSV (Flat File)
+- Folder output/ berisi hasil ETL
